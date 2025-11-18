@@ -37,6 +37,20 @@ a {
   background: #2565b0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+.section-heading {
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+.section-desc {
+  color: #575f66;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.67;
+}
 /* =========================header==================== */
 .header {
   padding-top: 30px;
@@ -137,7 +151,7 @@ a {
 .hero__image {
   display: flex;
   align-items: center;
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 .hero__img {
   border-radius: 6px;
@@ -153,4 +167,74 @@ a {
 .hero__img-small {
   width: 210px;
   height: 410px;
+}
+/* =========================service====================  */
+.service {
+  padding: 170px 0;
+  background: #fff;
+}
+.service__heading,
+.section-desc {
+  text-align: center;
+  width: 468px;
+  margin: 0 auto;
+}
+.service__row {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service__img {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.service-item {
+  display: flex;
+  width: 470px;
+  padding: 21px;
+  align-items: flex-start;
+  transition: 0.25s;
+}
+.service-item:hover {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.service-item:hover .service-item__icon {
+  color: #fff;
+  background: #2e80ce;
+}
+.service-item__icon {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #eff6fd;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+  margin-right: 19px;
+  transition: 0.25s;
+}
+.service-item__heading {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.service-item__desc {
+  margin-top: 8px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75;
+}
+.service__btn {
+  margin-top: 55px;
 }
