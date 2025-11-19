@@ -566,3 +566,30 @@ a {
   transition: 0.25s;
 }
 /* =========================appointment====================  */
+.appointment {
+  padding: 85px 0;
+}
+.appointment__inner {
+  padding: 100px 178px;
+  align-items: center;
+  background: #f6fbff;
+}
+.appointment__heading::after {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  margin: 18px auto 0;
+}
+.appointment__desc {
+  margin: 18px auto 0;
+  min-width: 617px;
+  text-align: center;
+}
+.appointment__btn {
+  margin-top: 38px;
+  display: block;
+  align-items: center;
+  max-width: 200px;
+}
