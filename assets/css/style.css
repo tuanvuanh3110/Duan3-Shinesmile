@@ -593,3 +593,116 @@ a {
   align-items: center;
   max-width: 200px;
 }
+/* =========================footer====================  */
+.footer {
+  padding: 100px 0 35px;
+  background: #10375c;
+}
+.footer__top {
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+  column-gap: 78px;
+}
+.footer__desc {
+  margin-top: 18px;
+  color: #a9b3bb;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75;
+}
+.footer__heading {
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75;
+}
+.footer__list {
+  margin: 20px 0 28px;
+}
+.footer__link {
+  color: #a9b3bb;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86;
+  white-space: nowrap;
+}
+.footer__link:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.footer__item {
+  margin-bottom: 10px;
+}
+.footer__social {
+  display: flex;
+  column-gap: 16px;
+  margin: 20px 0 28px;
+}
+.footer__social:hover {
+  color: #2e80ce;
+  transition: 0.25s;
+}
+.footer-form {
+  display: flex;
+  column-gap: 12px;
+  margin-top: 10px;
+}
+.footer-form__input {
+  display: flex;
+  width: 212px;
+  height: 46px;
+  padding: 14px 3px 13px 3px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #406181;
+  background: transparent;
+  outline: none;
+  color: #fff;
+}
+.footer-form__input::placeholder {
+  color: #a9b3bb;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86;
+}
+.footer__submit-btn {
+  display: block;
+  width: 60px;
+  height: 46px;
+  border-radius: 4px;
+  background: #2e80ce;
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.86;
+  flex-shrink: 0;
+  border: none;
+  cursor: pointer;
+}
+.footer__submit-btn:hover {
+  background: #2565b0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.footer__copyright {
+  border-top: 1px solid #aab3ba;
+}
+.footer__copyright-text {
+  margin: 28px 0 20px;
+  color: #aab3ba;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86;
+}
